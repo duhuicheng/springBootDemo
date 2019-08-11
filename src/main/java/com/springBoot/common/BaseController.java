@@ -1,7 +1,6 @@
-package com.springBoot.util;
+package com.springBoot.common;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
