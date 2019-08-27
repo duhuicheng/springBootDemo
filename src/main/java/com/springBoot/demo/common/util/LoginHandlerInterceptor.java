@@ -15,7 +15,7 @@ public class LoginHandlerInterceptor implements HandlerInterceptor {
 //        String token=httpServletRequest.getParameter("token");
 //        Claims claims=JwtUtil.checkJWT(token);
 //        System.out.println(claims);
-        if (!httpServletRequest.getParameter("token").isEmpty()){
+        if (httpServletRequest.getParameter("token")!=null){
             //输出token对象内容
             Claims claims=JwtUtil.checkJWT(httpServletRequest.getParameter("token"));
             System.out.println(claims);
