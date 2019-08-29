@@ -3,6 +3,8 @@ package com.springBoot.demo.controller;
 import com.springBoot.common.BaseController;
 import com.springBoot.common.JwtUtil;
 import com.springBoot.demo.dao.PaperMapper;
+import com.springBoot.demo.dao.UserRoleMapper;
+import com.springBoot.demo.pojo.UserRole;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,6 +15,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Controller
@@ -21,16 +24,13 @@ public class TestController extends BaseController {
     @Autowired
     PaperMapper paperMapper;
 
+    @Autowired
+    UserRoleMapper userRoleMapper;
+
     @RequestMapping("/test")
     public void test(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse){
-//        List<Paper> paperList=paperMapper.selectByMap();
-//        System.out.println(paperList.toString());
-        Map<String,Object> map=new HashMap<>();
-        map.put("userId",123);
-        map.put("userName",666);
-        String token=JwtUtil.JwtCreate(map);
-        System.out.println(token);
-        JwtUtil.checkJWT(token);
+        List<UserRole> list=userRoleMapper.selectByMap();
+        System.out.println(list);
     }
 
     @RequestMapping("/test1")
@@ -50,10 +50,13 @@ public class TestController extends BaseController {
         return cookieName;
     }
 
+
+
     @RequestMapping("/show")
     public String show(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse){
         return "login";
     }
+
 
     @RequestMapping("/login")
     @ResponseBody
@@ -66,5 +69,7 @@ public class TestController extends BaseController {
         httpServletResponse.addCookie(cookie);
         return token;
     }
+
+
 
 }
