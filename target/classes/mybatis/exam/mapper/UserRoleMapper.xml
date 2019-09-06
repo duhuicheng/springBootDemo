@@ -20,4 +20,5 @@
   <select id="selectByMap" parameterType="java.util.Map" resultMap="BaseResultMap" useCache="true">
     select * from userrole
   </select>
+
 </mapper>
