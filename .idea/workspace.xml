@@ -2,10 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebf68db6-ab8e-4e12-a05b-0aa15a057907" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.workspace.xml.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springBoot/demo/common/util/RabbitMqException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/TestWeb.log.2019-09-11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/demo.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springBoot/demo/common/util/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springBoot/demo/common/util/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springBoot/common/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springBoot/common/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/springBoot/demo/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springBoot/demo/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/common/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/common/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/DruidConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/LoginConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/LoginHandlerInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/MqReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/MqSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/MybatisRedisCache$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/MybatisRedisCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/QueueConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/common/util/SpringContextHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/dao/PaperMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/dao/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/pojo/Paper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springBoot/demo/pojo/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/exam/mapper/PaperMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/exam/mapper/UserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springBoot/demo/QueueTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +50,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springBoot/demo/common/util/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="295">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +71,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="552">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RabbitMqException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springBoot/demo/common/util/RabbitMqException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JwtUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springBoot/common/JwtUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -46,7 +102,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/rolling/SizeAndTimeBasedFNATP.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1725">
-              <caret line="32" column="69" lean-forward="true" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+              <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -260,30 +316,6 @@
               <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="springBoot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -533,7 +565,7 @@
       <workItem from="1567735193993" duration="10255000" />
       <workItem from="1567997185802" duration="601000" />
       <workItem from="1568075380339" duration="1006000" />
-      <workItem from="1568080225338" duration="8657000" />
+      <workItem from="1568080225338" duration="9225000" />
     </task>
     <task id="LOCAL-00001" summary="新增getParameterMap方法用于接收请求数据">
       <created>1565190314697</created>
@@ -578,16 +610,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72862000" />
+    <option name="totallyTimeSpent" value="73538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" weight="0.3287234" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159913" side_tool="true" weight="0.26906317" />
       <window_info anchor="bottom" id="JRebel Console" order="8" sideWeight="0.50104165" side_tool="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="运行仪表板" order="8" sideWeight="0.49895832" visible="true" weight="0.26906317" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32942432" />
+      <window_info anchor="bottom" id="运行仪表板" order="8" sideWeight="0.49840087" weight="0.26906317" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="8" />
       <window_info id="Capture Tool" order="2" />
@@ -608,25 +640,58 @@
       <window_info anchor="bottom" id="消息" order="7" weight="0.3287234" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="运行" order="7" weight="0.29738563" />
+      <window_info active="true" anchor="bottom" id="运行" order="7" sideWeight="0.4989339" visible="true" weight="0.29738563" />
       <window_info anchor="right" id="控制板" order="3" />
       <window_info anchor="bottom" id="Problems" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968254" visible="true" weight="0.22921109" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968254" visible="true" weight="0.22921109" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" sideWeight="0.5031915" side_tool="true" weight="0.23854166" />
       <window_info id="JRebel" order="2" sideWeight="0.5031746" side_tool="true" weight="0.23854166" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="找到" order="11" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="3" weight="0.3296875" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32978722" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="JRebel" order="2" sideWeight="0.5031746" side_tool="true" weight="0.23854166" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968254" visible="true" weight="0.22921109" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="消息" order="7" weight="0.3287234" />
+      <window_info anchor="bottom" id="Run Dashboard" order="11" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="控制板" order="3" />
+      <window_info id="设计师" order="2" />
+      <window_info anchor="bottom" id="JRebel Executor" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32942432" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="运行仪表板" order="8" sideWeight="0.49895832" weight="0.26906317" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32978722" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" weight="0.3287234" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="调试" order="7" weight="0.3278867" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="找到" order="11" />
+      <window_info anchor="bottom" id="JRebel Console" order="8" sideWeight="0.50104165" side_tool="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info id="Web" order="2" sideWeight="0.5031915" side_tool="true" weight="0.23854166" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="3" weight="0.3296875" />
+      <window_info active="true" anchor="bottom" id="运行" order="7" visible="true" weight="0.29738563" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -960,16 +1025,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/springBoot/demo/QueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/springBoot/demo/QueueTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springBoot/demo/common/util/QueueConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1011,27 +1067,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-747">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springBoot/demo/common/util/DruidConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springBoot/demo/common/util/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1048,14 +1087,31 @@
     <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/rolling/SizeAndTimeBasedFNATP.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1725">
-          <caret line="32" column="69" lean-forward="true" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+          <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="552">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springBoot/demo/common/util/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -14,8 +14,6 @@ public class JwtUtil<T> {
     //秘钥
     public static final  String APPSECRET = "demo";
 
-    public static final  String APPSECRET2 = "demo1";
-
 
     //创建token对象
     public static String JwtCreate(Map<String, Object> map){
