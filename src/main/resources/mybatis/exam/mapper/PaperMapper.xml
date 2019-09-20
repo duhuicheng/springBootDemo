@@ -2,7 +2,6 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.springBoot.demo.dao.PaperMapper">
 
-  <cache eviction="FIFO" flushInterval="6000" size="512" readOnly="true"></cache>
   <resultMap id="BaseResultMap" type="com.springBoot.demo.pojo.Paper">
     <result column="pid" jdbcType="INTEGER" property="pid" />
     <result column="pname" jdbcType="VARCHAR" property="pname" />

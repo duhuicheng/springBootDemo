@@ -1,5 +1,6 @@
 package com.springBoot.demo.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.springBoot.common.BaseController;
 import com.springBoot.common.JwtUtil;
 import com.springBoot.demo.dao.PaperMapper;
@@ -28,9 +29,12 @@ public class TestController extends BaseController {
     UserRoleMapper userRoleMapper;
 
     @RequestMapping("/test")
-    public void test(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse){
+    @ResponseBody
+    public String test(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse){
         List<UserRole> list=userRoleMapper.selectByMap();
         System.out.println(list);
+        String json= JSON.toJSONString(list);
+        return json;
     }
 
     @RequestMapping("/test1")
